@@ -1,0 +1,44 @@
+/* NavigationBar.css */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .nav-container div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-container input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .nav-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav-container select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  

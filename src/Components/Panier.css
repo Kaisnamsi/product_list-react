@@ -1,0 +1,31 @@
+/* Panier.css */
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table-container th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .table-container td img {
+    max-width: 30px;
+  }
+  
+  .total-row {
+    font-weight: bold;
+  }
+  
